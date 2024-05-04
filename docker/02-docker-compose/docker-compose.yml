@@ -6,7 +6,7 @@ services:
     volumes:
       - ./product:/usr/src/app
     ports:
-      - 5001:80
+      - 5001:90
 
   website:
     image: php:apache
